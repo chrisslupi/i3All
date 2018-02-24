@@ -8,9 +8,9 @@ set -e
 sudo pacman -S --noconfirm --needed archey3 baobab bleachbit catfish clementine conky curl
 sudo pacman -S --noconfirm --needed darktable dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode
-sudo pacman -S --noconfirm --needed evince evolution filezilla firefox
+sudo pacman -S --noconfirm --needed evince evolution filezilla firefox gvim
 sudo pacman -S --noconfirm --needed galculator gimp git gksu glances gnome-disk-utility
-# sudo pacman -S --noconfirm --needed gnome-font-viewer gnome-screenshot gnome-system-monitor gnome-terminal gnome-tweak-tool
+sudo pacman -S --noconfirm --needed gnome-font-viewer gnome-screenshot gnome-system-monitor gnome-terminal gnome-tweak-tool
 sudo pacman -S --noconfirm --needed gparted gpick grsync
 sudo pacman -S --noconfirm --needed hardinfo hddtemp htop
 sudo pacman -S --noconfirm --needed inkscape inxi lm_sensors lsb-release meld mlocate mpv
